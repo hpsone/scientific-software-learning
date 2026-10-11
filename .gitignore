@@ -1,0 +1,35 @@
+# Build
+build/
+build*/
+*.o
+*.mod
+*.a
+*.so
+*.dylib
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Editor and OS
+.DS_Store
+*.swp
+
+# Claude Code (local settings, permissions, session data)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+PLAN.md
+LOG.md
+TODO.md
+
+# Large outputs
+*.nc
+*.vtk
+*.vtu
+*.slf
+*.mp4
